@@ -1,0 +1,1 @@
+# ja-comment-package-for-joomla4
