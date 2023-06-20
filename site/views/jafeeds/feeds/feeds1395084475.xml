@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<?xml-stylesheet href="" type="text/css"?>
+<?xml-stylesheet href="" type="text/xsl"?>
+<rss version="2.0">
+    <channel>
+        <title>JAComment rss</title>
+        <description><![CDATA[Description jacomment]]></description>
+        <link>http://kingdom-of-souls.ru/</link>
+        <lastBuildDate>Mon, 17 Mar 2014 19:27:55 +0000</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <item>
+            <title>matt (+1) </title>
+            <link>home/programmirovanie/89-problema-opera-s-jommla-i-fajla-mootools-more-js-problema-opera-s-jommla-i-fajla-mootools-more-js#jacommentid:13</link>
+            <description><![CDATA[<p>может и так, и разрабы оперы не виновны ;-) вот только почему эта проблема есть только у нее?<br />
+ни хром, ни фокс, ни сафари, ни даже, прости хосподи, ослы 8-9 такой проблемы не имеют...<br />
+нэприятно однако</p>]]></description>
+            <pubDate>Wed, 11 Jul 2012 21:21:00 +0000</pubDate>
+            <guid>home/programmirovanie/89-problema-opera-s-jommla-i-fajla-mootools-more-js-problema-opera-s-jommla-i-fajla-mootools-more-js#jacommentid:13</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (+1) </title>
+            <link>home/programmirovanie/89-problema-opera-s-jommla-i-fajla-mootools-more-js-problema-opera-s-jommla-i-fajla-mootools-more-js#jacommentid:14</link>
+            <description><![CDATA[<p>Я бы сказал это вопрос времени в каком браузере и когда вылез бы такой косяк. Опере так сказать просто "повезло" оказаться первой. Если разработчики Joomla не внесут изменения в следующие версии самостоятельно, то такая ситуация может повториться и с любым другим браузером.</p>]]></description>
+            <pubDate>Thu, 12 Jul 2012 13:18:00 +0000</pubDate>
+            <guid>home/programmirovanie/89-problema-opera-s-jommla-i-fajla-mootools-more-js-problema-opera-s-jommla-i-fajla-mootools-more-js#jacommentid:14</guid>
+        </item>
+    </channel>
+</rss>

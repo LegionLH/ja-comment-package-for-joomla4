@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<extension type="component" version="3.0" method="upgrade">
+	<name>com_jacomment</name>
+	<creationDate>Nov 2012</creationDate>
+	<copyright>Copyright (C), J.O.O.M Solutions Co., Ltd. All Rights Reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<author>JoomlArt</author>
+	<authorEmail>webmaster@joomlart.com</authorEmail>
+	<authorUrl>www.joomlart.com</authorUrl>
+	<version>2.5.2</version>
+	<updateservers>
+	    <server type="collection">http://update.joomlart.com/service/tracking/list.xml</server>
+	</updateservers>
+	<description>
+	 <![CDATA[
+	 	<style type="text/css">
+	 		.mod-desc li{
+				background: url("../components/com_jacomment/site/asset/images/arrow-level1.png") no-repeat left 10px;
+				margin-left:10px;
+				padding-left:12px;
+			}
+			.mod-desc p{
+				margin:15px 0;
+			}
+	 	</style>
+	 	<span style="color: #008000;"><strong>JA Comment Component</strong></span><br />
+	 	<p><img alt="JA Comment Component" src="http://static.joomlart.com/images/stories/extensions/joomla/jaec_comment.png" /></p>
+		<div style='font-weight:normal'>
+	 	JA Comment Component provides a quick way to let your readers post comments on your content pages or provide valuable feedback. The component was developed to meet several needs such as easy administration, powerful front-end features, fast comment moderation and easy integration with other content components. It was designed to be easy for beginners and powerful enough for advanced users to administer and control.<br />
+	 	<p style="clear:both"><span style="color: #ff6600;"><strong>Features:</strong></span></p>
+	 	<ol>
+			<li>Powerful moderation - comments are split in four tabs: approved, not approved, SPAM, all, with comment highlight capabilities;</li>
+			<li>User Avatar - enable avatar from Joomla! community components such as Community Builder or JomSocial or widely known communities such as Twitter or Facebook (powered by RPXNow and RPXNow plugin);</li>
+			<li>E-mail and comments templates - just by using the built in editors, you can easily customize the look and feel of the comments and notification e-mails sent by the component;</li>
+			<li>Strong security - SPAM filters, ban IP and e-mail addresses, bad words filter and more;</li>
+			<li>AJAX Technologies used - comments moderation in both front-end and back-end or component administration use AJAX technologies to save bandwidth and speed up the page load.</li>
+		</ol>
+		<p><strong><span style="color: #ff0000;">Upgrade Methods:</span><br /></strong></p>
+		<ol>
+			<li>Standard joomla uninstall / reinstall method. OR</li>
+			<li>Module supports upgrade method. You can install new version directly over this version. Uninstallation is not required. Backup any customized file before upgrading, your settings would be saved though. OR</li>
+			<li>Use <strong><a href="http://extensions.joomla.org/extensions/core-enhancements/installers/12077" target="_blank">JA Extensions Managhttp://update.joomlart.com/#er</a></strong> Component for easy upgrades and rollbacks. <strong><a href="http://www.youtube.com/user/JoomlArt#p/c/BC9B0C0BFE98657E/2/mNAuJRmifG8" target="_blank">Watch Video..</a></strong></li>
+		</ol>
+		<p><span style="color: #008000;"><strong>Links:</strong></span></p>
+		<ul>
+			<li><a target="_blank" href="http://www.joomlart.com/forums/forumdisplay.php?194-JA-Comment-Component/">JA Comment Component Forum</a></li>
+			<li><a target="_blank" href="http://pm.joomlart.com/browse/JAECCOMCOMMENTJVI">Report Bug</a></li>
+			<li><a target="_blank" href="http://update.joomlart.com/">Updates &amp; Versions</a></li>
+			<li><a target="_blank" href="http://wiki.joomlart.com/wiki/Main_Page/">Wiki Site</a></li>
+		</ul>
+		<p>Copyright 2004 - 2010 <a href="http://www.joomlart.com/" title="Visit Joomlart.com!">JoomlArt.com</a>.</p>
+		</div>
+	 ]]>
+	</description>
+	
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>jacomment.php</filename>
+		<filename>controller.php</filename>
+
+		<folder>asset</folder>
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		<folder>themes</folder>
+		<folder>libs</folder>
+	</files>
+
+	<administration>
+		<menu img="components/com_jacomment/asset/images/jacomment.png">COM_JACOMMENT</menu>
+		<files folder="admin">
+			<filename>admin.jacomment.php</filename>
+			<filename>controller.php</filename>
+			<filename>toolbar.jacomment.php</filename>
+			<filename>toolbar.jacomment.html.php</filename>
+			<filename>index.html</filename>
+			<folder>asset</folder>
+			<folder>controllers</folder>
+			<folder>help</folder>
+			<folder>installer</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+		</files>
+
+		<languages folder="admin/language">
+			<language tag="en-GB">en-GB.com_jacomment.ini</language>
+			<language tag="en-GB">en-GB.com_jacomment.sys.ini</language>
+		</languages>
+	</administration>
+	
+	<languages folder="site/language">
+		<language tag="en-GB">en-GB.com_jacomment.ini</language>
+	</languages>
+	<install>
+		<sql folder="admin">
+			<file driver="mysql" charset="utf8">installer/sql/install.jacomment.sql</file>
+		</sql>
+	</install>
+	
+	<installfile>install.jacomment.php</installfile>
+	<scriptfile>script.jacomment.php</scriptfile>
+	
+	<jaupdater>
+        <serviceUrl>
+            http://update.joomlart.com
+        </serviceUrl>
+
+        <tables>
+            <table>#__jacomment_configs</table>
+            <table>#__jacomment_email_templates</table>
+            <table>#__jacomment_items</table>
+			<table>#__jacomment_logs</table>
+        </tables>
+        
+        <versions folder="admin">
+        	<version version="1.0.0">
+            </version>
+        </versions>
+    </jaupdater>
+</extension>

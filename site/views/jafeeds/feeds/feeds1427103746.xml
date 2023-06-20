@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<?xml-stylesheet href="" type="text/css"?>
+<?xml-stylesheet href="" type="text/xsl"?>
+<rss version="2.0">
+    <channel>
+        <title>JAComment rss</title>
+        <description><![CDATA[Description jacomment]]></description>
+        <link>http://kingdom-of-souls.ru/</link>
+        <lastBuildDate>Mon, 23 Mar 2015 09:42:26 +0000</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <item>
+            <title>De4a (0) </title>
+            <link>home/programmirovanie/100-rabota-s-ats-tipa-ldk#jacommentid:58</link>
+            <description><![CDATA[<p>Доброе время суток! Наткнулся на ваш сайт чисто случайно. <br />
+Сразу к вопросу. Не могу позвонить с одного телефона вн № 124, поднимаю трубку, тишина. но если я звоню на этот внутренний то нормально. что не так и как сделать?</p>
+<p>И ещё установил плату DTIB12\24 как присвоить ему внутренние номера и вообще надо это делать?</p>]]></description>
+            <pubDate>Tue, 21 Oct 2014 14:41:00 +0000</pubDate>
+            <guid>home/programmirovanie/100-rabota-s-ats-tipa-ldk#jacommentid:58</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>home/programmirovanie/100-rabota-s-ats-tipa-ldk#jacommentid:59</link>
+            <description><![CDATA[<p>Новые установленные платы надо прописывать в Configuration (PGM101), после этого в Logical Assigment (PGM103) на новых платах правой кнопой Append to STA, потом UPDATE и перезагрузка АТС. После этого проверяем в Numbering Plan (PGM104) что добавлены новые номера.</p>
+<p>После настройки проверяй 124ю станцию, если гудка нет, смотри тип телефона в Station List (PGM110)</p>]]></description>
+            <pubDate>Wed, 22 Oct 2014 13:26:00 +0000</pubDate>
+            <guid>home/programmirovanie/100-rabota-s-ats-tipa-ldk#jacommentid:59</guid>
+        </item>
+    </channel>
+</rss>

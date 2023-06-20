@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<?xml-stylesheet href="" type="text/css"?>
+<?xml-stylesheet href="" type="text/xsl"?>
+<rss version="2.0">
+    <channel>
+        <title>JAComment rss</title>
+        <description><![CDATA[Description jacomment]]></description>
+        <link>http://kingdom-of-souls.ru/</link>
+        <lastBuildDate>Wed, 31 Jul 2013 08:36:13 +0000</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>index.php?option=com_content&amp;amp;view=article&amp;amp;id=84:ftp-kak-disk-v-windows&amp;amp;catid=91:windows&amp;amp;Itemid=489#jacommentid:21</link>
+            <description><![CDATA[<p>Тут два варианта, если написал сюда команду точно так как забивал, то неправильная команда, надо так<br />
+FTPUSE X: FTP.имядомена.ru/public_html ПАРОЛЬ /USER:ИМЯ /NOPASSIVE   (слэш перед паролем не нужен, и слэш перед NOPASSIVE прилип имени пошльзователя, порт дефолтный, поэтому указывать его не надо )<br />
+Либо неправильный путь FTP.имядомена.ru/public_html, попробуй без указания папки просто адрес сервера FTP.имядомена.ru</p>]]></description>
+            <pubDate>Mon, 06 May 2013 16:47:00 +0000</pubDate>
+            <guid>index.php?option=com_content&amp;amp;view=article&amp;amp;id=84:ftp-kak-disk-v-windows&amp;amp;catid=91:windows&amp;amp;Itemid=489#jacommentid:21</guid>
+        </item>
+        <item>
+            <title>Николай (+1) </title>
+            <link>home/programmnoe-obespechenie/windows/84-ftp-kak-disk-v-windows#jacommentid:17</link>
+            <description><![CDATA[<p>Я решил попробовать и вбил вот это <br />
+FTPUSE X: FTP.имядомена.ru/public_html /ПАРОЛЬ /USER:ИМЯ/ NOPASSIVE /PORT:21<br />
+в ответ получил<br />
+connecting...<br />
+read timeout</p>
+<p>Что делать?</p>]]></description>
+            <pubDate>Fri, 03 May 2013 01:22:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/windows/84-ftp-kak-disk-v-windows#jacommentid:17</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (+1) </title>
+            <link>home/programmnoe-obespechenie/windows/84-ftp-kak-disk-v-windows#jacommentid:18</link>
+            <description><![CDATA[<p>Тут два варианта, если написал сюда команду точно так как забивал, то неправильная команда, надо так<br />
+FTPUSE X: FTP.имядомена.ru/public_html ПАРОЛЬ /USER:ИМЯ /NOPASSIVE   (слэш перед паролем не нужен, и слэш перед NOPASSIVE прилип имени пошльзователя, порт дефолтный, поэтому указывать его не над�&frac34<span class="smiley"><span style="background-position: -36px 0px;"><span>;)</span></span></span><br />
+Либо неправильный путь FTP.имядомена.ru/public_html, попробуй без указания папки просто адрес сервера FTP.имядомена.ru</p>]]></description>
+            <pubDate>Sat, 04 May 2013 15:01:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/windows/84-ftp-kak-disk-v-windows#jacommentid:18</guid>
+        </item>
+    </channel>
+</rss>

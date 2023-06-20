@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<?xml-stylesheet href="" type="text/css"?>
+<?xml-stylesheet href="" type="text/xsl"?>
+<rss version="2.0">
+    <channel>
+        <title>JAComment rss</title>
+        <description><![CDATA[Description jacomment]]></description>
+        <link>http://kingdom-of-souls.ru/</link>
+        <lastBuildDate>Mon, 29 Sep 2014 14:11:21 +0000</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <item>
+            <title>Legion Leonhart (+1) </title>
+            <link>home/programmnoe-obespechenie/85-windows-8-consumer-preview#jacommentid:11</link>
+            <description><![CDATA[<p>Как показала практика, ничего нового в управлении так и не сделано, добиться того что я хотел так не удалось. Правда, я таки нашел способ создания нескольких курсоров для нескольких устройств ввода - программа Peanut Butter Pointer. Теперь хотя бы не приходится гонять мышь по нескольким мониторам.</p>]]></description>
+            <pubDate>Thu, 22 Mar 2012 13:03:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/85-windows-8-consumer-preview#jacommentid:11</guid>
+        </item>
+    </channel>
+</rss>

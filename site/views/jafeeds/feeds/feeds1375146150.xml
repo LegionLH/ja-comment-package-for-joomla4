@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<?xml-stylesheet href="" type="text/css"?>
+<?xml-stylesheet href="" type="text/xsl"?>
+<rss version="2.0">
+    <channel>
+        <title>JAComment rss</title>
+        <description><![CDATA[Description jacomment]]></description>
+        <link>http://kingdom-of-souls.ru/</link>
+        <lastBuildDate>Tue, 30 Jul 2013 01:02:30 +0000</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <item>
+            <title>ugtrans (0) </title>
+            <link>home/programmnoe-obespechenie/94-udalenie-reklamy-marketgid-com-marketplacer-ru-vsplyvayushchej-na-vsekh-sajtakh#jacommentid:22</link>
+            <description><![CDATA[<p>Добрый день! Я так и не понял как удалить эту рекламу со своего компьютера. Можете более детально описать? Или же, если не сложно, напишите на почту<br />
+За раннее спасибо!</p>]]></description>
+            <pubDate>Sat, 13 Jul 2013 11:46:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/94-udalenie-reklamy-marketgid-com-marketplacer-ru-vsplyvayushchej-na-vsekh-sajtakh#jacommentid:22</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>home/programmnoe-obespechenie/94-udalenie-reklamy-marketgid-com-marketplacer-ru-vsplyvayushchej-na-vsekh-sajtakh#jacommentid:23</link>
+            <description><![CDATA[<p>Нужно открыть блокнотом файл C:\Windows\System32\Drivers\etc\hosts и в нем удалить все строчки которые начинаются не с 127.0.0.1</p>]]></description>
+            <pubDate>Sat, 13 Jul 2013 12:04:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/94-udalenie-reklamy-marketgid-com-marketplacer-ru-vsplyvayushchej-na-vsekh-sajtakh#jacommentid:23</guid>
+        </item>
+        <item>
+            <title>ugtrans (0) </title>
+            <link>home/programmnoe-obespechenie/94-udalenie-reklamy-marketgid-com-marketplacer-ru-vsplyvayushchej-na-vsekh-sajtakh#jacommentid:24</link>
+            <description><![CDATA[<p>У меня там нету ничего, кроме одной строки: 127.0.0.1 localhost<br />
+Что еще можно сделать?</p>]]></description>
+            <pubDate>Sat, 13 Jul 2013 23:52:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/94-udalenie-reklamy-marketgid-com-marketplacer-ru-vsplyvayushchej-na-vsekh-sajtakh#jacommentid:24</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>home/programmnoe-obespechenie/94-udalenie-reklamy-marketgid-com-marketplacer-ru-vsplyvayushchej-na-vsekh-sajtakh#jacommentid:25</link>
+            <description><![CDATA[<p>Тогда проверь в свойствах сетевой карты, в свойствах TCP/IPv4 какие у тебя там заданы DNS сервера, возможно там прописались чужие сервера.</p>]]></description>
+            <pubDate>Sun, 14 Jul 2013 01:35:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/94-udalenie-reklamy-marketgid-com-marketplacer-ru-vsplyvayushchej-na-vsekh-sajtakh#jacommentid:25</guid>
+        </item>
+        <item>
+            <title>ugtrans (0) </title>
+            <link>home/programmnoe-obespechenie/94-udalenie-reklamy-marketgid-com-marketplacer-ru-vsplyvayushchej-na-vsekh-sajtakh#jacommentid:26</link>
+            <description><![CDATA[<p>И там всё пусто. У меня все настройки сети получаются автоматически. Я не могу прописать туда ничего вообще<br />
+http://gyazo.com/518d1506bdbddaafd678eb20b4321f95</p>]]></description>
+            <pubDate>Sun, 14 Jul 2013 10:56:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/94-udalenie-reklamy-marketgid-com-marketplacer-ru-vsplyvayushchej-na-vsekh-sajtakh#jacommentid:26</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>home/programmnoe-obespechenie/94-udalenie-reklamy-marketgid-com-marketplacer-ru-vsplyvayushchej-na-vsekh-sajtakh#jacommentid:27</link>
+            <description><![CDATA[<p>На сколько я вижу у тебя стоит Windows XP, в ней к сожаления подобные вирусы могут быть во многих местах. Как вариант могу тебе предложить воспользоваться моей статьей <a href="http://kingdom-of-souls.ru//home/programmnoe-obespechenie/87-hosts-kak-sredstvo-borby-s-reklamoj-i-bannerami" rel="nofollow">Hosts как средство борьбы с рекламой и баннерами</a> это не удалит вирус, но покрайней мере хотя бы избавит от назойливой рекламы.<br />
+Чтобы избавиться от самого вируса тут уже придется поразбираться, скачай прогу во вложении, запускай её, жми там первую кнопу и скинь мне log файл который выдаст программа.</p>]]></description>
+            <pubDate>Mon, 15 Jul 2013 13:46:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/94-udalenie-reklamy-marketgid-com-marketplacer-ru-vsplyvayushchej-na-vsekh-sajtakh#jacommentid:27</guid>
+        </item>
+    </channel>
+</rss>

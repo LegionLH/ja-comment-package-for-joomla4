@@ -1,0 +1,1 @@
+ALTER TABLE `#__jacomment_items` ADD `p0` INT( 11 ) DEFAULT '0' AFTER `active_children`;

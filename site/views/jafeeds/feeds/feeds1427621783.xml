@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<?xml-stylesheet href="" type="text/css"?>
+<?xml-stylesheet href="" type="text/xsl"?>
+<rss version="2.0">
+    <channel>
+        <title>JAComment rss</title>
+        <description><![CDATA[Description jacomment]]></description>
+        <link>http://kingdom-of-souls.ru/</link>
+        <lastBuildDate>Sun, 29 Mar 2015 09:36:23 +0000</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <item>
+            <title>рома (0) </title>
+            <link>index.php?Itemid=464&amp;amp;option=com_content&amp;amp;view=article&amp;amp;catid=77&amp;amp;id=111#jacommentid:77</link>
+            <description><![CDATA[<p>не помогло</p>]]></description>
+            <pubDate>Mon, 23 Mar 2015 21:52:00 +0000</pubDate>
+            <guid>index.php?Itemid=464&amp;amp;option=com_content&amp;amp;view=article&amp;amp;catid=77&amp;amp;id=111#jacommentid:77</guid>
+        </item>
+        <item>
+            <title>Александр (0) </title>
+            <link>index.php?Itemid=464&amp;amp;option=com_content&amp;amp;view=article&amp;amp;catid=77&amp;amp;id=111#jacommentid:75</link>
+            <description><![CDATA[<p>Спасибо большое. Очень помогли.</p>]]></description>
+            <pubDate>Tue, 17 Mar 2015 08:48:00 +0000</pubDate>
+            <guid>index.php?Itemid=464&amp;amp;option=com_content&amp;amp;view=article&amp;amp;catid=77&amp;amp;id=111#jacommentid:75</guid>
+        </item>
+        <item>
+            <title>Катерина (0) </title>
+            <link>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:74</link>
+            <description><![CDATA[<p>1000000 благодарности!!! СПАСИБО!!!</p>]]></description>
+            <pubDate>Sun, 01 Mar 2015 19:29:00 +0000</pubDate>
+            <guid>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:74</guid>
+        </item>
+        <item>
+            <title>Evelbrat (0) </title>
+            <link>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:69</link>
+            <description><![CDATA[<p>После переустановки виндовс если зайти в безопасный режим,пишет "окончание установки в безопасном режиме не возможно",а в обычном экран не горит и не могу закончить установку.Помогите!!!</p>]]></description>
+            <pubDate>Mon, 26 Jan 2015 19:08:00 +0000</pubDate>
+            <guid>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:69</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:70</link>
+            <description><![CDATA[<p>В твоём случае не факт, что проблема как в этой теме. Пробуй запустить Windows в режиме VGA (F8 при загрузке и выбирать не Безопасный режим, а Запуск в режиме VGA). Это обычный режим Windows, но без загрузки видеодрайвера.</p>]]></description>
+            <pubDate>Mon, 26 Jan 2015 19:28:00 +0000</pubDate>
+            <guid>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:70</guid>
+        </item>
+        <item>
+            <title>Sergey (+1) </title>
+            <link>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:61</link>
+            <description><![CDATA[<p>Спасибо, заработало, но вот беда, когда выдергиваешь питание, подсветка опять гаснет, питание подаешь, включается. <br />
+горячая клавиша на вкл/выкл подсветки не срабатывает, asus k52dr</p>]]></description>
+            <pubDate>Wed, 03 Dec 2014 23:38:00 +0000</pubDate>
+            <guid>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:61</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:62</link>
+            <description><![CDATA[<p>Это из-за того что при отключении питания уменьшается яркость подсветки. Чтобы экран включился нужно горячими клавишами увеличить яркость, а чтобы не выключался в будущем в настройках Энергопотребления выставить вручную максимальную яркость.</p>]]></description>
+            <pubDate>Mon, 08 Dec 2014 17:03:00 +0000</pubDate>
+            <guid>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:62</guid>
+        </item>
+        <item>
+            <title>Sergey (+1) </title>
+            <link>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:63</link>
+            <description><![CDATA[<p>думаешь я этого не пробовал? <br />
+проблему решил еще в тот же день, в реестре пару значений подправил и все заработало</p>]]></description>
+            <pubDate>Mon, 08 Dec 2014 17:05:00 +0000</pubDate>
+            <guid>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:63</guid>
+        </item>
+        <item>
+            <title>Ivash (0) </title>
+            <link>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:71</link>
+            <description><![CDATA[<p>Сергей, столкнулся стой же проблемой. Подскажите какие значения вы правили в реестре?</p>]]></description>
+            <pubDate>Fri, 06 Feb 2015 10:34:00 +0000</pubDate>
+            <guid>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:71</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:64</link>
+            <description><![CDATA[<p>Значит в ноутбуке стоит две видеокарты и для этого случая внизу статьи синим цветом выделено "Если в вашем ноутбуке две видеокарты, то возможно такую же процедуру надо будет проделать и с соседней веткой:<br />
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e968-e325-11ce-bfc1-0 8002be10318}\0001"</p>]]></description>
+            <pubDate>Fri, 19 Dec 2014 16:38:00 +0000</pubDate>
+            <guid>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:64</guid>
+        </item>
+        <item>
+            <title>Avid (+2) </title>
+            <link>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:57</link>
+            <description><![CDATA[<p>Огромное С П А С И Б О!!!</p>]]></description>
+            <pubDate>Sun, 12 Oct 2014 23:07:00 +0000</pubDate>
+            <guid>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:57</guid>
+        </item>
+        <item>
+            <title>Евгений (+2) </title>
+            <link>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:50</link>
+            <description><![CDATA[<p>Спасибо!!!</p>]]></description>
+            <pubDate>Sun, 10 Aug 2014 19:03:00 +0000</pubDate>
+            <guid>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:50</guid>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<?xml-stylesheet href="" type="text/css"?>
+<?xml-stylesheet href="" type="text/xsl"?>
+<rss version="2.0">
+    <channel>
+        <title>JAComment rss</title>
+        <description><![CDATA[Description jacomment]]></description>
+        <link>http://kingdom-of-souls.ru/</link>
+        <lastBuildDate>Wed, 03 Dec 2014 12:36:31 +0000</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <item>
+            <title>Avid (+1) </title>
+            <link>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:57</link>
+            <description><![CDATA[<p>Огромное С П А С И Б О!!!</p>]]></description>
+            <pubDate>Sun, 12 Oct 2014 23:07:00 +0000</pubDate>
+            <guid>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:57</guid>
+        </item>
+        <item>
+            <title>Евгений (0) </title>
+            <link>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:50</link>
+            <description><![CDATA[<p>Спасибо!!!</p>]]></description>
+            <pubDate>Sun, 10 Aug 2014 19:03:00 +0000</pubDate>
+            <guid>111-gasnet-podsvetka-ekrana-pri-zagruzke-windows-na-noutbuke#jacommentid:50</guid>
+        </item>
+    </channel>
+</rss>

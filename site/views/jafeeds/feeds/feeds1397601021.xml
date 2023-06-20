@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<?xml-stylesheet href="" type="text/css"?>
+<?xml-stylesheet href="" type="text/xsl"?>
+<rss version="2.0">
+    <channel>
+        <title>JAComment rss</title>
+        <description><![CDATA[Description jacomment]]></description>
+        <link>http://kingdom-of-souls.ru/</link>
+        <lastBuildDate>Tue, 15 Apr 2014 22:30:21 +0000</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <item>
+            <title>BJ-lot (0) </title>
+            <link>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:42</link>
+            <description><![CDATA[<p>Автору данной статьи - ОГРОМНАЯ благодарность, настроил все работает!<br />
+Вот у меня есть несколько вопросов, если не трудно ответьте!<br />
+1. Не слетят ли данные настройки после обновления joomla, так как сейчас довольно часто обновляется j2.5.<br />
+2. Можно ли все данные настройки прописать в моем шаблоне в папке /html/. Вот для папки /components/ можно прописывать те папки и файлы где были внесены изменения в ядре joomla, просто указывается немного другой путь, а вот для папки /administrator/ - такое можно сделать или нет?<br />
+3. И последний вопрос - для чего нужно выполнять скрипт к БД приведенный в данной статье (что-то дублирует)?</p>]]></description>
+            <pubDate>Fri, 21 Feb 2014 07:11:00 +0000</pubDate>
+            <guid>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:42</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:43</link>
+            <description><![CDATA[<p>1 - сами доп.категории не слетят, они хранятся в БД, как раз для них и сделан скрипт к БД, о котором говорится в 3м вопросе<br />
+2 - те изменения что касаются именно шаблона (php файлы в папках tmpl) - можно. То же касается и шаблонов панели администратора, с ними можно поступать также как с обычными шаблонами, только они находятся в папке <strong>administrator/templates</strong> . Файлы XML как правило не меняются с обновлениями, а вот остальные файлы при обновлениях будут заменены. Но мой хак подходит под любые версии 2.5 ибо те куски, что затрагиваются, не меняются с обновлениями, поэтому после обновления можно снова пробежаться по моим изменениям и недостающие вернуть. Либо можно сохранить себе отдельно измененные файлы и после обновления пройтись по ним путем Сравнения по содержимому файлов в Total Commander.</p>]]></description>
+            <pubDate>Fri, 21 Feb 2014 10:52:00 +0000</pubDate>
+            <guid>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:43</guid>
+        </item>
+        <item>
+            <title>BJ-lot (0) </title>
+            <link>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:44</link>
+            <description><![CDATA[<p>Все понял, спасибо!</p>]]></description>
+            <pubDate>Fri, 21 Feb 2014 21:37:00 +0000</pubDate>
+            <guid>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:44</guid>
+        </item>
+        <item>
+            <title>Nikita (0) </title>
+            <link>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:38</link>
+            <description><![CDATA[<p>и еще, если задать catid2 или catid3, то в списке "Блог категорий" этих категорий статья будет в самом конце (хотя задано сортировать последнии статьи - показывать первыми) . Видимо где то группировка по catid стоит. Как сделать чтобы дата статьи учитывалась при сортировке в блоке категорий и по полям catid2 и catid3 ?</p>]]></description>
+            <pubDate>Tue, 21 Jan 2014 12:05:00 +0000</pubDate>
+            <guid>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:38</guid>
+        </item>
+        <item>
+            <title>BJ-lot (0) </title>
+            <link>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:41</link>
+            <description><![CDATA[<p>Все правильно статья может быть в конце и даже в середине остальных статей или в любой другой позиции, потому что данная уже была создана ранее и ей добавили дополнительные категории, там идет уже по id!<br />
+Если вы только создали статью и добавили несколько категорий - то она будет вначале списка, если конечно же так установлено в настройках!</p>]]></description>
+            <pubDate>Fri, 21 Feb 2014 06:58:00 +0000</pubDate>
+            <guid>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:41</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:39</link>
+            <description><![CDATA[<p>Никаких группировок там нет и быть не может, потому что изначально в системе не было предусмотрено несколько категорий. Так что материалы с несколькими категориями сортируются на тех же правах что и обычные материалы. Проверяйте настройки меню.</p>]]></description>
+            <pubDate>Tue, 21 Jan 2014 14:06:00 +0000</pubDate>
+            <guid>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:39</guid>
+        </item>
+        <item>
+            <title>Nick (+1) </title>
+            <link>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:36</link>
+            <description><![CDATA[<p>Спасибо, все получилось.<br />
+в файле <br />
+components\com_content\models\articles.php<br />
+строчка для замены без точки<br />
+'a.catid, a.catid2, a.catid3, a.created, a.created_by, a.created_by_alias, '<br />
+надо так<br />
+'a.catid, a.catid2, a.catid3, a.created, a.created_by, a.created_by_alias, ' .</p>]]></description>
+            <pubDate>Tue, 21 Jan 2014 10:37:00 +0000</pubDate>
+            <guid>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:36</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (+1) </title>
+            <link>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:37</link>
+            <description><![CDATA[<p>Да, исправил, спасибо. Видимо не промахнулся когда выделял.</p>]]></description>
+            <pubDate>Tue, 21 Jan 2014 11:49:00 +0000</pubDate>
+            <guid>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:37</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:31</link>
+            <description><![CDATA[<p>Если я правильно понял имеется в виду "Порядок сортировки как менеджере" (поле ordering в БД)? Если так то боюсь это невозможно реализовать... По пробую объяснить почему:<br />
+Для указания сортировки для каждой категории отдельно нужно будет создать в БД дополнительные поля, в нашем случае добавить поле ordering2 (для cat2). И соответственно изменить запрос в БД выбирающий материалы для вывода в виде блога (в стандартной ситуации эта сортировка выглядит как ORDER BY ordering, то бишь только для основной категории cat1), вот тут то и возникает проблема - Как отсортировать таблицу по двум полям, не зная заранее какая из двух сортировок нам нужна... если сортировать сразу по двум полям (ORDER BY ordering, ordering1) результат будет неправильный.</p>
+<p> Есть правда вариант сделать несколько отдельных запросов, на каждую дополнительную категорию отдельно, потом собрать их вместе, отсортировать и отобрать нужное количество для вывода, но этот способ грубо говоря увеличивает нагрузку на  сервер в три раза (в случае с двумя доп.категориями ) и насколько быстро это будет работать я не берусь предсказать.</p>]]></description>
+            <pubDate>Tue, 29 Oct 2013 19:02:00 +0000</pubDate>
+            <guid>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:31</guid>
+        </item>
+        <item>
+            <title>krosav4ig (0) </title>
+            <link>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:32</link>
+            <description><![CDATA[<p>А будет ли работать такая сортировка: </p>
+<p>ORDER BY IIf(catid=id_категории,ordering,IIf(catid2=id_категории,ordering2,ordering3))</p>]]></description>
+            <pubDate>Wed, 30 Oct 2013 16:53:00 +0000</pubDate>
+            <guid>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:32</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:34</link>
+            <description><![CDATA[<p>Хотя может и будет работать, надо пробовать, я как то даже не думал над установкой условий в сортировке. Если заработает, можно ещё индексы повесить ordering2 и ordering3 в БД для ускорения работы.</p>]]></description>
+            <pubDate>Wed, 30 Oct 2013 19:12:00 +0000</pubDate>
+            <guid>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:34</guid>
+        </item>
+        <item>
+            <title>krosav4ig (0) </title>
+            <link>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:29</link>
+            <description><![CDATA[<p>Большое спасибо за статью. Все отлично работает. Но мне еще нужно для каждого материала задать различный порядок в категориях, в которых он закреплен, чтобы при выводе блога категории материалы сортировались по порядку, соответствующему этой категории. Можете ли вы мне помочь?</p>]]></description>
+            <pubDate>Tue, 29 Oct 2013 15:07:00 +0000</pubDate>
+            <guid>home/programmirovanie/102-hack-odin-material-v-neskolkikh-kategoriyakh-dlya-joomla-2-5-multikategorii#jacommentid:29</guid>
+        </item>
+    </channel>
+</rss>

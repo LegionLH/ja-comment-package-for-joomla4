@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<?xml-stylesheet href="" type="text/css"?>
+<?xml-stylesheet href="" type="text/xsl"?>
+<rss version="2.0">
+    <channel>
+        <title>JAComment rss</title>
+        <description><![CDATA[Description jacomment]]></description>
+        <link>http://kingdom-of-souls.ru/</link>
+        <lastBuildDate>Sun, 25 Jan 2015 14:32:27 +0000</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <item>
+            <title>Денис (+1) </title>
+            <link>home/programmnoe-obespechenie/windows/107-windows-7-ispravlenie-oshibki#jacommentid:48</link>
+            <description><![CDATA[<p>мда... спасибо автору за убитую винду</p>]]></description>
+            <pubDate>Thu, 03 Jul 2014 11:00:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/windows/107-windows-7-ispravlenie-oshibki#jacommentid:48</guid>
+        </item>
+        <item>
+            <title>den (0) </title>
+            <link>home/programmnoe-obespechenie/windows/107-windows-7-ispravlenie-oshibki#jacommentid:66</link>
+            <description><![CDATA[<p>Я не могу запустить винду,может из за того что не удалил некоторые файлы?</p>]]></description>
+            <pubDate>Thu, 08 Jan 2015 06:37:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/windows/107-windows-7-ispravlenie-oshibki#jacommentid:66</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>home/programmnoe-obespechenie/windows/107-windows-7-ispravlenie-oshibki#jacommentid:67</link>
+            <description><![CDATA[<p>А какой код ошибки выдает? Ну то бишь опиши подробнее, так сложно угадать.</p>]]></description>
+            <pubDate>Fri, 09 Jan 2015 21:56:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/windows/107-windows-7-ispravlenie-oshibki#jacommentid:67</guid>
+        </item>
+        <item>
+            <title>Legion Leonhart (0) </title>
+            <link>home/programmnoe-obespechenie/windows/107-windows-7-ispravlenie-oshibki#jacommentid:49</link>
+            <description><![CDATA[<p>Ну начнём с того, что она у тебя уже была убита, ибо по сути не работала.</p>
+<p>А по факту, если у тебя что то пошло не как в инструкции, надо не писать про убитую винду, а спросить что делать в твоей ситуации. Кроме того это инструкция Windows не убивает, а лишь меняет загрузочник, так что даже в если что то не получилось, всё можно исправить путем правки этого самого загрузочника.</p>]]></description>
+            <pubDate>Thu, 03 Jul 2014 11:18:00 +0000</pubDate>
+            <guid>home/programmnoe-obespechenie/windows/107-windows-7-ispravlenie-oshibki#jacommentid:49</guid>
+        </item>
+    </channel>
+</rss>
