@@ -285,7 +285,7 @@ HEREHTML;
         }
         // If the last entry is empty, close the final list
         echo @$matches[$n];
-        if (!trim (@$matches[$n])) {
+        if (@$matches[$n]!=null && !trim (@$matches[$n])) {
           if ($curlist) {
             $string .= "</{$curlist}l>";
           }

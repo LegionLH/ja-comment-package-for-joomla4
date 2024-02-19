@@ -692,10 +692,7 @@ textarea.jac-editor-code{
     width:95%;
 	margin-top:12px;
 }
-input:focus, select:focus, textarea:focus {
-    background-color:#FFFFDD;
-}
-.comment-content-left{	
+.comment-content-left{
 	float: left;
 	width: 80%;
 }

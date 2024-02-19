@@ -50,7 +50,7 @@ class TableComments extends JTable
 	/** @var int */
 	var $userid = null;
 	/** @var mediumtext */
-	var $usertype = null;
+	var $usertype = '';
 	/** @var varchar */
 	var $option = null;
 	/** @var smallint */
@@ -62,7 +62,7 @@ class TableComments extends JTable
 	/** @var varchar */
 	var $referer = null;
 	/** @var varchar */
-	var $source = null;
+	var $source = '';
 	/** @var varchar */
 	var $date_active = null;
 	/** @var int */

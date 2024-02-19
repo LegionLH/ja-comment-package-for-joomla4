@@ -126,13 +126,13 @@ class jacommentControllercomments extends JACommentController
 			$errors[] = JText::_("ERROR_DUPLICATE_FOR_COMMENT_TITLE");
 			return false;
 		}
-		
+
 		if (! $row->store()) {
 			$errors[] = JText::_("ERROR_DATA_NOT_SAVED");
 			return false;
 		}
 		
-		return $item->id;
+		return true;
 	}
 	
 	/**
