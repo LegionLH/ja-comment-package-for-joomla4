@@ -50,7 +50,8 @@ class jacommentControllercomment extends JACommentController
 		$inputs = Factory::getApplication()->input;
 		switch ($task) {
 			case 'verify':
-				$post = $inputs->get('post', JREQUEST_ALLOWHTML);
+				//$post = $inputs->get('post', JREQUEST_ALLOWHTML);
+				$post = $inputs->get('post');
 				if (count($post) > 0 && $post['email'] != '' && $post['payment_id'] != '') {
 					$objVerify = new JACommentLicense($post['email'], $post['payment_id']);
 					$objVerify->verify_license($post['email'], $post['payment_id']);

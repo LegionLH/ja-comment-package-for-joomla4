@@ -2509,6 +2509,7 @@ var_dump($post);
 	function open_attach_file()
 	{
 		global $jacconfig;
+		$app = Factory::getApplication();
 		$inputs = Factory::getApplication()->input;
 		$cid = $inputs->get('cid', array(0), 'array');
 		JArrayHelper::toInteger($cid, array(0));
@@ -2544,6 +2545,7 @@ var_dump($post);
 	function open_attach_file_edit()
 	{
 		global $jacconfig;
+		$app = Factory::getApplication();
 		$inputs = Factory::getApplication()->input;
 		$cid = $inputs->get('cid', array(0), 'array');
 		JArrayHelper::toInteger($cid, array(0));

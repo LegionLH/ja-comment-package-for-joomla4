@@ -890,7 +890,7 @@ function sortComment(sort, obj){
  * 
  * @return boolean True if it has errors, otherwise false
  */
-function checkErrorNewComment(ID){
+function checkErrorNewComment(){
     return (function($){
         var checkError = 0;
         var textEnd				  = "";
@@ -1054,9 +1054,9 @@ function refreshPage(){
  * 
  * @return void
  */
-function postNewComment(id){
+function postNewComment(){
     (function($) {
-        var flag = checkErrorNewComment(id);
+        var flag = checkErrorNewComment();
         if (flag) {
             if($("#btlAddNewComment").length)
                 $("#btlAddNewComment").attr('disabled', true);
@@ -1109,7 +1109,6 @@ function postNewComment(id){
             if($("#form1").length){
                 data += "&"+$("#form1").serialize();
             }
-
             jacomment_ajax_load(url, data, function() {
                 if (parseInt(JACommentConfig.isEnableCharacterCounter)) {
                     $jaCmt('#newcomment').counter({

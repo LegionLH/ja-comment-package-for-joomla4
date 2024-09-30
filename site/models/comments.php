@@ -172,20 +172,19 @@ class JACommentModelComments extends JACModel
 		$query = $this->_buildQueryTotalByType($search);
 		
 		$db->setQuery($query);
-		$arr = array();
 		$arr2 = $db->loadAssocList();
 		if (sizeof($arr2) > 0) {
 			for ($i = 0; $i < sizeof($arr2); $i++) {
 				$arr[$arr2[$i]['type']] = $arr2[$i]['total'];
 			}
 			
-		}
-		for ($j = 0; $j <= 2; $j++) {
-			if (! array_key_exists($j, $arr)) {
-				$arr[$j] = 0;
+			for ($j = 0; $j <= 2; $j++) {
+				if (! array_key_exists($j, $arr)) {
+					$arr[$j] = 0;
+				}
 			}
+			return $arr;
 		}
-		return $arr;
 	}
 	
 	/**
@@ -779,7 +778,7 @@ class JACommentModelComments extends JACModel
 			}
 		}
 		
-		$childArrays = null;
+		$childArrays = array();
 		$this->getChildArray($id, $childArrays);
 		if (count($childArrays) > 0) {
 			foreach ($childArrays as $childArray) {

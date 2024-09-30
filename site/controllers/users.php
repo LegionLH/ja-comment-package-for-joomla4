@@ -135,10 +135,10 @@ class JACommentControllerUsers extends JACommentController
 		echo $helper->parse_JSON_new($object);
 		exit();
 	}
-	
+
 	/**
 	 * Sign in function
-	 * 
+	 *
 	 * @return void
 	 */
 	function signin_old()
@@ -223,7 +223,7 @@ class JACommentControllerUsers extends JACommentController
 		$credentials = array();
 		$inputs = Factory::getApplication()->input;
 		$credentials['username'] = $inputs->get('username', '');
-		$credentials['password'] = $inputs->getString('passwd', '', JREQUEST_ALLOWRAW);
+		$credentials['password'] = $inputs->get('passwd', '', 'raw');
 		
 		//preform the login action
 		$container = \Joomla\CMS\Factory::getContainer();

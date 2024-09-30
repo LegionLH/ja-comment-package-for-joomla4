@@ -24,15 +24,15 @@ class TableComments extends JTable
 	/** @var int */
 	var $parentid = null;
 	/** @var int */
-	var $contentid = null;
+	var $contentid = 0;
 	/** @var varchar */
-	var $contenttitle = null;
+	var $contenttitle = '';
 	/** @var varchar */
 	var $ip = null;
 	/** @var varchar */
 	var $name = null;
 	/** @var varchar */
-	var $comment = null;
+	var $comment = '';
 	/** @var datetime */
 	var $date = null;
 	/** @var int */
@@ -60,7 +60,7 @@ class TableComments extends JTable
 	/** @var tinyint */
 	var $subscription_type = null;
 	/** @var varchar */
-	var $referer = null;
+	var $referer = '';
 	/** @var varchar */
 	var $source = '';
 	/** @var varchar */

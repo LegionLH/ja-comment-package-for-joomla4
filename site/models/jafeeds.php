@@ -266,7 +266,8 @@ class JACommentModelJAFeeds extends JACModel
 		$db = Factory::getDBO();
 		$row = $this->getItem();
 		$inputs = Factory::getApplication()->input;
-		$post = $inputs->get('request', JREQUEST_ALLOWHTML);
+		//$post = $inputs->get('request', JREQUEST_ALLOWHTML);
+		$post = $inputs->get('request');
 		if (is_array($post['filter_cat_id'])) {
 			$post['filter_cat_id'] = implode(',', $post['filter_cat_id']);
 		}

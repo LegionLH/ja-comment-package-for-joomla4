@@ -703,7 +703,7 @@ class JACommentHelpers
 		} else {
 			include_once JPATH_COMPONENT . DS . "/helpers/JSON.php";
 			$json = new Services_JSON(SERVICES_JSON_LOOSE_TYPE);
-			$result = $json->decode($result);
+			$result = $json->decode($objects);
 		}
 		return $html;
 	}
@@ -1611,7 +1611,7 @@ class JACommentHelpers
 		$valid = 0;
 		
 		// Validate the syntax
-		if (eregi($regexp, $email)) {
+		if (mb_eregi($regexp, $email)) {
 			$valid = 1;
 		} else {
 			$valid = 0;
@@ -2191,7 +2191,7 @@ class JACommentHelpers
 			preg_match_all($pattern, $str, $matches);
 			
 			$arr0 = $matches[0];
-			$arr1 = '';
+			$arr1 = array();
 			foreach ($matches[1] as $v) {
 				if ($showYoutube) {
 					$arr1[] = '<p><object type="application/x-shockwave-flash" width="'.$width.'" height="295"
@@ -3129,7 +3129,8 @@ class JACommentLicense
 	{
 		$app = Factory::getApplication();
 		$inputs = Factory::getApplication()->input;
-		$post = $inputs->get('request', JREQUEST_ALLOWHTML);
+		//$post = $inputs->get('request', JREQUEST_ALLOWHTML);
+		$post = $inputs->get('request');
 		if ($email == '') {
 			$email = isset($post['email']) ? trim($post['email']) : '';
 		}
@@ -3817,7 +3818,7 @@ if (! class_exists('extractor')) {
 		{
 			$this->timeout = $timeout;
 			if ($cookies) {
-				if ($mycookiefile) {
+				if ($sesscookiefile) {
 					$this->cookiefile = "cookies/" . $sesscookiefile;
 					if (! is_file($this->cookiefile)) {
 						$fp = fopen($this->cookiefile, "w");
@@ -3850,13 +3851,13 @@ if (! class_exists('extractor')) {
 			curl_setopt($ch, CURLOPT_HEADER, true);
 			curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 			
-			if ($proxyport && $proxyaddr) {
+/*			if ($proxyport && $proxyaddr) {
 				curl_setopt($ch, CURLOPT_PROXY, trim($proxyaddr) . ":" . trim($proxyport));
 			}
 			if ($proxyuser && $proxypass) {
 				curl_setopt($ch, CURLOPT_PROXYUSERPWD, trim($proxyuser) . ":" . trim($proxypass));
 			}
-			
+			*/
 			if ($setcookie) {
 				curl_setopt($ch, CURLOPT_COOKIEJAR, $this->cookiefile);
 			}
@@ -3970,7 +3971,7 @@ if (! class_exists('extractor')) {
 				while (($file = readdir($dir)) !== false) {
 					if ($file != "." && $file != "..") {
 						$stat = stat($tmpdir . "/" . $file);
-						if ($stat[atime] < (mktime() - $delbefore)) {
+						if ($stat['atime'] < (mktime() - $delbefore)) {
 							unlink($tmpdir . "/" . $file);
 						}
 					}

@@ -32,13 +32,13 @@ $isEnableConversationBar = $jacconfig["layout"]->get("enable_conversationbar", 0
 $isEnableVotedTab = $jacconfig["layout"]->get("enable_votedlist", 0);
 
 ?>
-<!-- BEGIN - load blog header -->
-<?php require_once $helper->jaLoadBlock("comments/head.php");	?>
-<!-- END   - load blog header -->
+<!-- BEGIN - load block head -->
+<?php /*require_once $helper->jaLoadBlock("comments/head.php");*/	?>
+<!-- END   - load block head -->
 
-<!-- BEGIN - load blog header -->
+<!-- BEGIN - load block header -->
 <?php require_once $helper->jaLoadBlock("comments/header.php");	?>
-<!-- END   - load blog header -->
+<!-- END   - load block header -->
 <div id="jac-headerbar"><?php echo JText::_("COMMENT_AND_JOIN_THE_DISCUSSION"); ?></div>
 <!-- BEGIN - load conversation bar -->
 <?php
